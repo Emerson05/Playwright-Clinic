@@ -105,18 +105,18 @@ npx playwright install
 
 3. Executando os Testes
 
-Execução em segundo plano (Headless):
+# Execução em segundo plano (Headless):
 
 npx playwright test
 
-Interface Gráfica Interativa (UI Mode - Recomendado):
+# Interface Gráfica Interativa (UI Mode - Recomendado):
 
 npx playwright test --ui
 
-Execução visualizando o navegador (Headed Mode):
+# Execução visualizando o navegador (Headed Mode):
 
 npx playwright test --headed
 
-Visualizar o Relatório de Testes:
+# Visualizar o Relatório de Testes:
 
 npx playwright show-report
